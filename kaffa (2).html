@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kaffa – Coffee Market</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Josefin+Sans:wght@300;400;600&display=swap"
+    rel="stylesheet" />
+    <link rel="stylesheet" href = "style.css">
+  
+
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a class="nav-logo" href="#Home">
+      <span class="logo-top">coffee</span>
+      <span class="logo-main">Kaffa</span>
+      <span class="logo-bottom">market</span>
+    </a>
+    <!-- Desktop links -->
+    <ul class="desk-nav" style="display:none;" id="desk-nav">
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#About">About</a></li>
+      <li><a href="#Services">Services</a></li>
+      <li><a href="#Menu">Menu</a></li>
+      <li><a href="#BeansCoffee">Beans Coffee</a></li>
+      <li><a href="#Book">Book</a></li>
+    </ul>
+    <!-- Hamburger -->
+    <button class="hamburger" id="ham-btn" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="overlay" id="overlay"></div>
+  <div class="mobile-menu" id="mobile-menu">
+    <button class="menu-close" id="menu-close">✕</button>
+    <a href="#Home" class="mob-link">Home</a>
+    <a href="#About" class="mob-link">About</a>
+    <a href="#Services" class="mob-link">Services</a>
+    <a href="#Menu" class="mob-link">Menu</a>
+    <a href="#BeansCoffee" class="mob-link">Beans Coffee</a>
+    <a href="#Book" class="mob-link">Book</a>
+  </div>
+
+  <!-- HERO -->
+  <div id="Home">
+    <div class="slide s1 active">
+      <div class="slide-bg"></div>
+      <div class="slide-content">
+        <h2>Elite Coffee Brands</h2>
+        <p>Coffee Shop is the place where you can get flavorful coffee strains from global elite brands and roasters at
+          very affordable price. Lorem ipsum dolor sit amet elit.</p>
+        <div class="hero-btns">
+          <a href="#Book" class="btn-outline">Book a table</a>
+          <a href="#About" class="btn-outline">About Us</a>
+        </div>
+      </div>
+    </div>
+    <div class="slide s2">
+      <div class="slide-bg"></div>
+      <div class="slide-content">
+        <h2>Hot and tasty coffee</h2>
+        <p>Coffee Shop is the place where you can get flavorful coffee strains from global elite brands and roasters at
+          very affordable price. Lorem ipsum dolor sit amet elit.</p>
+        <div class="hero-btns">
+          <a href="#Book" class="btn-outline">Book a table</a>
+          <a href="#About" class="btn-outline">About Us</a>
+        </div>
+      </div>
+    </div>
+    <div class="slide s3">
+      <div class="slide-bg"></div>
+      <div class="slide-content">
+        <h2>Dedicated coffee fans</h2>
+        <p>Coffee Shop is the place where you can get flavorful coffee strains from global elite brands and roasters at
+          very affordable price. Lorem ipsum dolor sit amet elit.</p>
+        <div class="hero-btns">
+          <a href="#Book" class="btn-outline">Book a table</a>
+          <a href="#About" class="btn-outline">About Us</a>
+        </div>
+      </div>
+    </div>
+    <div class="slide s4">
+      <div class="slide-bg"></div>
+      <div class="slide-content">
+        <h2>Celebrate coffee brands</h2>
+        <p>Coffee Shop is the place where you can get flavorful coffee strains from global elite brands and roasters at
+          very affordable price. Lorem ipsum dolor sit amet elit.</p>
+        <div class="hero-btns">
+          <a href="#Book" class="btn-outline">Book a table</a>
+          <a href="#About" class="btn-outline">About Us</a>
+        </div>
+      </div>
+    </div>
+    <div class="slider-dots">
+      <button class="dot active" data-idx="0"></button>
+      <button class="dot" data-idx="1"></button>
+      <button class="dot" data-idx="2"></button>
+      <button class="dot" data-idx="3"></button>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="About">
+    <p class="sec-label">Best for you</p>
+    <h2 class="sec-title">Who We Are</h2>
+    <div class="green-line"></div>
+    <p class="sec-body">We make the delicious coffee for the coffee lovers. We are a team of dedicated coffee fans who
+      celebrate exceptional coffee brands and roasters. Lorem ipsum feugiat.</p>
+    <br />
+    <a href="#Menu" class="btn-solid">Learn More</a>
+    <div class="about-cards">
+      <div class="acard">
+        <img src="https://semicode.tech/build/assets/about_back_01-2bba97c5.jpg" alt="People"
+          onerror="this.src='https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=600&q=80'" />
+        <div class="acard-label">
+          <h4>People</h4><span>Explore →</span>
+        </div>
+      </div>
+      <div class="acard">
+        <img src="https://semicode.tech/build/assets/about_back_02-ba5d88f8.jpg" alt="Coffee"
+          onerror="this.src='https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&q=80'" />
+        <div class="acard-label">
+          <h4>Coffee</h4><span>Explore →</span>
+        </div>
+      </div>
+      <div class="acard">
+        <img src="https://semicode.tech/build/assets/about_back_03-59920650.jpg" alt="Planet"
+          onerror="this.src='https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=600&q=80'" />
+        <div class="acard-label">
+          <h4>Planet</h4><span>Explore →</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="Services">
+    <p class="sec-label">What We Offer</p>
+    <h2 class="sec-title">Services</h2>
+    <div class="green-line"></div>
+    <div class="services-list">
+      <div class="svc">
+        <div class="svc-num">01</div>
+        <h3>Pure Grades</h3>
+        <p>Maecenas dapibus mattis eros, at fermentum sapien malesuada sit amet. Quisque in sollicitudin eros.</p>
+      </div>
+      <div class="svc">
+        <div class="svc-num">02</div>
+        <h3>Wide Assortment</h3>
+        <p>Cras ut nisl ac sapien interdum scelerisque sed in elit rutrum in massa sed congue eget turpis.</p>
+      </div>
+      <div class="svc">
+        <div class="svc-num">03</div>
+        <h3>Proper Roasting</h3>
+        <p>Proin non vulputate diam, ut varius orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="svc">
+        <div class="svc-num">04</div>
+        <h3>High Quality</h3>
+        <p>Maecenas dapibus mattis eros, at fermentum sapien malesuada sit amet. Quisque in sollicitudin eros.</p>
+      </div>
+      <div class="svc">
+        <div class="svc-num">05</div>
+        <h3>Excellent Grinding</h3>
+        <p>Maecenas dapibus mattis eros, at fermentum sapien malesuada sit amet. Quisque in sollicitudin eros.</p>
+      </div>
+      <div class="svc">
+        <div class="svc-num">06</div>
+        <h3>Awesome Aroma</h3>
+        <p>Maecenas dapibus mattis eros, at fermentum sapien malesuada sit amet. Quisque in sollicitudin eros.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section id="Menu">
+    <p class="sec-label">Our Selection</p>
+    <h2 class="sec-title">Menu</h2>
+    <div class="green-line"></div>
+    <div class="menu-tabs">
+      <button class="tab-btn active" data-cat="coffee">Coffee</button>
+      <button class="tab-btn" data-cat="caramel">Golden Caramel</button>
+      <button class="tab-btn" data-cat="iced">Over Ice</button>
+      <button class="tab-btn" data-cat="frostino">Frostino</button>
+      <button class="tab-btn" data-cat="fruit">Fruit Coolers</button>
+      <button class="tab-btn" data-cat="choco">Hot Chocolate</button>
+    </div>
+    <div class="menu-grid" id="menu-grid"></div>
+  </section>
+
+  <!-- VIDEO -->
+  <section id="BeansCoffee">
+    <p class="sec-label">Behind the Cup</p>
+    <h2 class="sec-title">How we Prepare our Beans</h2>
+    <div class="green-line"></div>
+    <div class="video-box">
+      <div class="play-wrap">
+        <div class="play-circle">
+          <svg viewBox="0 0 24 24">
+            <path d="M8 5v14l11-7z" />
+          </svg>
+        </div>
+        <span class="watch-label">Watch Video</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOK -->
+  <section id="Book">
+    <div class="book-inner">
+      <div>
+        <p class="sec-label">Reserve Your Spot</p>
+        <h2 class="sec-title">Book Now</h2>
+        <div class="green-line"></div>
+        <p class="sec-body">Booking a table at Kaffa is simple. Choose your preferred date and we'll make sure you have
+          the best experience.</p>
+        <div class="book-form">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+          <input type="tel" placeholder="Phone Number" />
+          <input type="date" />
+          <select>
+            <option value="" disabled selected>Number of Guests</option>
+            <option>1 Person</option>
+            <option>2 People</option>
+            <option>3–4 People</option>
+            <option>5+ People</option>
+          </select>
+          <button class="btn-solid" style="padding:14px;" onclick="alert('Table booked! We\'ll confirm by email.')">Book
+            Now</button>
+        </div>
+      </div>
+      <div class="book-img">
+        <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=800&q=80" alt="Coffee shop" />
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2021 SemiCode, Ltd. | All Rights Reserved. Made with <span>♥</span> for coffee lovers.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
